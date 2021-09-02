@@ -104,7 +104,7 @@ export default function TemperatureMain() {
                         <div className="col-sm-2"></div>
 
                         <div className="col-sm-4 current-temp-number">
-                        {weather.temp_current}°C{" "}
+                        <span><ConvertTemperature temp={weather.temp_current}/></span>
                         <img
                             className="header-emoji"
                             src={weather.emoji}
@@ -114,7 +114,7 @@ export default function TemperatureMain() {
                         </div>
                         <div className="col-sm-4 feels-like-text">
                         Feels Like
-                        <div className="row temp-number-curr">{weather.feels_like}°C</div>
+                        <div className="row temp-number-curr"><ConvertTemperature temp={weather.feels_like}/></div>
                         </div>
 
                         <div className="col-sm-2"></div>
@@ -161,7 +161,7 @@ export default function TemperatureMain() {
                         
 
                         <div className="row">
-                            <div className="low-temp-number">{weather.low}°C</div>
+                            <div className="low-temp-number"><ConvertTemperature temp={weather.low}/></div>
                         </div>
                     </div>
                     <div className="col-sm curr-high-section">
@@ -173,7 +173,7 @@ export default function TemperatureMain() {
                             HIGH <span className="thermo-colour-high">🌡</span>
                         </span>
                         <div className="row">
-                            <div className="high-temp-number">{weather.high}°C</div>
+                            <div className="high-temp-number"><ConvertTemperature temp={weather.high}/></div>
                         </div>
                     </div>
                 </div>
