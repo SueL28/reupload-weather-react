@@ -11,6 +11,10 @@ html{
     background-color: rgba(0, 0, 0, 0.459);
 }
 
+.container-for-app{
+    padding: 50px;
+}
+
 .app-container{
     display: block;
     margin: 80px auto;
