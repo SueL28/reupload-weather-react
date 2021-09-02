@@ -13,6 +13,7 @@
     transition: all 150ms ease-in-out;
     color: rgb(0, 110, 197);
     cursor: pointer;
+    
 }
 
 .conversion a:hover{
