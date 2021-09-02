@@ -1,0 +1,27 @@
+.Footer {
+    margin-bottom: 30px;
+    text-align: center;
+    color: rgb(77, 76, 72);
+    font-family: "Hind", sans-serif;
+    font-style: bolder;
+    font-size: 12pt;
+  }
+  
+  .Footer a {
+    color: rgb(0, 110, 197);
+    text-decoration: none;
+    font-family: "Hind", sans-serif;
+    cursor: pointer;
+    transition: all 150ms ease-in-out;
+  }
+  
+  .Footer a:hover {
+    color: rgb(140, 189, 228);
+    text-decoration: underline;
+  }
+  
+ .Footer img{
+      height: auto;
+      max-width: 40px;
+      padding: 0;
+  }
